@@ -1,6 +1,6 @@
 ---
 title: "Install a Selenium library"
-linkTitle: "Install Library"
+linkTitle: "Inst9iiall Library"
 weight: 2
 description: >
   Setting up the Selenium library for your favourite programming language.
@@ -96,6 +96,19 @@ npm install selenium-webdriver
     Use the Java bindings for Kotlin.
   {{< /tab >}}
 {{< /tabpane >}}
+
+## Supported .NET Versions
+Make sure to use the .NET SDK version compatible with relevant [Selenium package](https://www.nuget.org/packages/Selenium.WebDriver).
+Check the dependencies section to find out the [supported .NET version](https://dotnet.microsoft.com/en-us/download/dotnet).
+At the time of this update, .NET 5.0 (Visual Studion 2019) is known to be supported.
+You can download [MSBuild Tools 2019 from here](https://docs.microsoft.com/en-us/visualstudio/install/create-an-offline-installation-of-visual-studio?view=vs-2019) to install the needed components and dependencies.
+
+## Using Visual Studio Code (vscode) and C#
+This is a quick guide to help you get started with vscode and C#, however, more research may be required.
+Install the vscode extensions for C# and NuGet.
+Follow the [instruction here](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-5-0) create and run the Hello World project using C#.
+Use ctrl-shift-P and type "NuGet Add Package", and select required Selenium packages.
+Now you can use the examples in the documentation related to C# with vscode. 
 
 ## Next Step
 [Install the browser drivers]({{< ref "install_drivers.md" >}})
